@@ -1,39 +1,37 @@
-import avatar from "./assets/images/avatar-jessica.jpeg";
-
 export function Profile({ avatar }) {
   return (
-    <div className=" p-1 bg-neutral-800   w-max p-7 my-10 rounded">
+    <div className=" bg-neutral-800   w-max p-7 my-10 rounded">
       <div className=" flex items-center justify-center">
         <img src={avatar} className=" rounded-full w-20" alt="" />
       </div>
       <div className=" text-center">
-        <p className=" text-white font-sans font-bold">Jessica Randall</p>
-        <p className=" text-lime-300 font-sans font-semibold">
-          London, United Kingdom
+        <p className=" text-white font-sans text-xl font-bold">
+          Igwedinma Ifechukwu
         </p>
+        <p className=" text-lime-300 font-sans font-semibold">Lagos, Nigeria</p>
         <p className=" text-white font-sans py-5">
-          *Front-end developer and avid reader*
+          *Front-end developer and tech enthusiast*
         </p>
         <a
-          href="#"
+          href="https://github.com/I-Divine"
           className=" bg-neutral-700 font-sans text-white text font-semibold my-3 py-1 block rounded hover:bg-lime-500 hover:text-black"
         >
           Github
         </a>
         <a
-          href="#"
+          href="https://www.frontendmentor.io/profile/I-Divine"
           className=" bg-neutral-700 font-sans text-white text font-semibold my-3 py-1 block rounded hover:bg-lime-500 hover:text-black"
         >
           Frontend Mentor
         </a>
         <a
-          href="#"
+          href="https://www.linkedin.com/in/divine-i/"
           className=" bg-neutral-700 font-sans text-white text font-semibold my-3 py-1 block rounded hover:bg-lime-500 hover:text-black"
         >
           Linkedin
         </a>
         <a
-          href="#"
+          href="https://x.com/IgwedinmaI"
           className=" bg-neutral-700 font-sans text-white text font-semibold my-3 py-1 block rounded hover:bg-lime-500 hover:text-black"
         >
           Twitter
