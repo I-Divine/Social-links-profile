@@ -10,7 +10,7 @@ export function Profile({ avatar }) {
         </p>
         <p className=" text-lime-300 font-sans font-semibold">Lagos, Nigeria</p>
         <p className=" text-white font-sans py-5">
-          *Front-end developer and tech enthusiast*
+         Software Engineer | React, NextJs | Java, Springboot
         </p>
         <a
           href="https://github.com/I-Divine"
